@@ -1,0 +1,39 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.2.RELEASE")
+    }
+}
+
+group "com.jweir"
+version "1.0-SNAPSHOT"
+
+apply plugin: "java"
+apply plugin: "org.springframework.boot"
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.springframework.boot:spring-boot-starter-web"
+    compile "org.springframework.boot:spring-boot-starter-data-mongodb"
+    compile "org.springframework.boot:spring-boot-starter-tomcat"
+    compile "org.springframework.boot:spring-boot-devtools"
+
+    compile "org.springframework.hateoas:spring-hateoas:0.23.0.RELEASE"
+
+    compile "javax.inject:javax.inject:1"
+    compile "com.google.guava:guava:21.0"
+
+    compile "org.codehaus.groovy:groovy:2.4.10"
+    compile "asm:asm:3.3.1"
+    compile "antlr:antlr:2.7.7"
+
+    testCompile "org.springframework.boot:spring-boot-starter-test"
+}

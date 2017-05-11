@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jweir.socialgraph.service.UserServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-04T03:33:44" hostname="jweir.local" time="0.08">
+  <properties/>
+  <testcase name="shouldDiscoverConnections" classname="com.jweir.socialgraph.service.UserServiceTest" time="0.08"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
